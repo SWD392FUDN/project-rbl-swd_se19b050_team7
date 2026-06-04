@@ -1,0 +1,44 @@
+{
+  "name": "frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "dev:local": "react-router dev --host 127.0.0.1 --port 3000",
+    "dev:public": "react-router dev --host 0.0.0.0 --port 3000",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@react-router/node": "7.15.1",
+    "@react-router/serve": "7.15.1",
+    "@tanstack/react-query": "^5.100.14",
+    "@types/dagre": "^0.7.54",
+    "@xyflow/react": "^12.11.0",
+    "axios": "^1.16.1",
+    "dagre": "^0.8.5",
+    "exceljs": "^4.4.0",
+    "framer-motion": "^12.40.0",
+    "isbot": "^5.1.36",
+    "js-cookie": "^3.0.7",
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router": "7.15.1",
+    "react-toastify": "^11.1.0",
+    "xlsx": "^0.18.5",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@react-router/dev": "7.15.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^22",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.3"
+  }
+}
